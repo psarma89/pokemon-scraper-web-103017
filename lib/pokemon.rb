@@ -24,8 +24,9 @@ class Pokemon
     new_pokemon.name = new_pokemon_info[1]
     new_pokemon.type = new_pokemon_info[2]
     new_pokemon.id = new_pokemon_info[0]
-    new_pokemon
+    new_pokemon.hp = new_pokemon_info[3]
     # binding.pry
+    new_pokemon
   end
 
   def alter_hp(hp_new,db)
