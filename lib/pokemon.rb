@@ -33,6 +33,6 @@ class Pokemon
     # self.hp = db.execute("select hp from pokemon where name = \"#{self.name}\";").flatten.first
     # self.hp = hp
     # binding.pry
-    @hp = hp_new
+    self.hp = hp_new
   end
 end
